@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Create Challan Container */
+  .create-challan {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .create-challan h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .challan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .radio-group label {
+    font-size: 1rem;
+  }
+  
+  .radio-group input {
+    margin-right: 10px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  }
+  

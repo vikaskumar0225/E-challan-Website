@@ -1,0 +1,36 @@
+.challan-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.challan-form-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.challan-form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
